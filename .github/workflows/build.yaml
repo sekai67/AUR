@@ -25,10 +25,16 @@ jobs:
     strategy:
       matrix:
         package:
-          - yay-bin # [!] You should not remove this. This workflow uses self-built yay to build other packages.
-          # Add packages you want HERE
-          # - zoom
-          # - google-chrome
+          - libnss-stns
+          - mongodb-bin
+          - nodenv
+          - openresty_luarocks
+          - phantomjs-bin
+          - s3ql
+          - softethervpn
+          - stns
+          - yay-bin
+          - zfs-linux
     steps:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
