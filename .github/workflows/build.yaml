@@ -69,3 +69,4 @@ jobs:
           ./tasks.sh commit
       - run: |
           ./tasks.sh push
+
